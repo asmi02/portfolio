@@ -78,7 +78,7 @@ a.navbar-brand
 {
     font-size: 45px;
     color: var(--tertiary);
-    font-family: Bradley Hand ITC;
+    font-family: Candara;
     font-weight: 800;
 }
 .navbar-nav li
@@ -114,15 +114,21 @@ a.navbar-brand:hover
 {
     font-size: 40px!important;
 }
+
+.bimg
+{
+    margin-top: 18%;
+    height: 500px;
+}
 /* about */
-#about
+/* #about
 {
     background-image: url(../images/abt.gif);
     background-size: 30%;
     background-repeat: no-repeat;
     background-position-x: 70%;
     background-position-y: 70%;
-}
+} */
 .abcontent
 {
     padding-left: 100px!important;
@@ -310,14 +316,14 @@ a i:hover
         margin-right: 0px;
     }
     /* about */
-    #about
+    /* #about
     {
         background-image: url(../images/abt.gif);
         background-size: 50%;
         background-repeat: no-repeat;
         background-position-x: 80%;
         background-position-y: 80%;
-    }
+    } */
     /* skills */
     #skills
     {
@@ -401,6 +407,16 @@ a i:hover
 }
 @media only screen and (max-width:580px)
 {
+    /* navbar */
+    a.navbar-brand
+    {
+        font-size: 30px;
+    }
+    .bimg
+    {
+        margin-top: 18%;
+        height: 300px;
+    }
     /* skills */
     #skills
     {
@@ -408,7 +424,7 @@ a i:hover
         background-size: 100%;
         background-repeat: no-repeat;
         background-position-x: 100%;
-        background-position-y: 70%;
+        background-position-y: 100%;
     }
     /* about */
     #about p
@@ -416,6 +432,7 @@ a i:hover
         font-size: 15px;
         color: white;
     }
+    /* projects */
     #projects .p1
     {
         border-radius: 0%;
@@ -435,5 +452,23 @@ a i:hover
     #projects .p1 a
     {
         font-size: 10px;
+    }
+    
+}
+
+@media only screen and (max-width:767px)
+{
+    /* about */
+    .dp
+    {
+        margin-left: 50%;
+    }
+}
+
+@media only screen and (max-width:315px)
+{
+    a.skillbtn
+    {
+        padding: 10px 15px;
     }
 }
