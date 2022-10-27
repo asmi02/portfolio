@@ -1,4 +1,4 @@
 # My Portfolio
 
-#Technical Srack
+# Technical Srack
 HTML,CSS,JS,jQuery,Bootstrap
